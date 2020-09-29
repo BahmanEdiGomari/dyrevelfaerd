@@ -1,0 +1,46 @@
+.footer{
+    width: 95%;
+    margin: 2em auto;
+
+    &__some{
+        display: flex;
+    }
+
+    &__somebox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1em;
+        border: solid 5px $white-color;
+        color: $white-color;
+        width: 3em;
+        height: 3em;
+        text-decoration: none;
+    }
+
+    &__style{
+        margin-top: 10em;
+    }
+
+    &__card{
+        margin: 2em 0 3em 0;
+    }
+
+    &__address{
+        font-style: normal;
+    }
+}
+
+.card{
+    width: 95%;
+    margin: 1.3em auto;
+    display: flex;
+    &__textbox{
+        margin-left: 1em;
+    }
+
+    &__tweet{
+        color: $style-color;
+        font-size: 2em;
+    }
+}
